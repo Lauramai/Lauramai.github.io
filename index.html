@@ -17,34 +17,95 @@
 
 
   <header>
-    <a class="my-btn" href="#anchor1"> Nos Conventions </a>
-    <a class="my-btn" href="#categorie2"> F.A.Q </a>
-    <a class="my-btn" href="#categorie3"> Newsletter </a>
-      
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">MENU</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Nos Conventions
+          </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="harrypotter.html">Harry Potter</a>
+          <a class="dropdown-item" href="#">Heartland</a>
+          <a class="dropdown-item" href="#">Insaisissables</a>
+          <a class="dropdown-item" href="#">Teen Wolf</a>
+        </div>
+        </li>
+
+          <a class="nav-link" href="#categorie2"> F.A.Q <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#categorie3">Newsletter</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#footer">Contact</a>
+        </li>
+        
+      </ul>
+    </div>
+    </nav>
+
   </header>
 
+
+
+        <img src="images/logo.png">
+
+
+
 <div id="banner">
-
-<img src="images/logo.png">
-
-  <div class="container-fluid">
-    <div class="row">
-      <div class="embed-responsive embed-responsive-16by9">
-		    <video autoplay muted loop id="Myvideo">
-          <source src="videos/banner.mp4" type="video/mp4">
-          <source src="videos/banner.ogg" type="video/ogg">
-          <source src="videos/banner.webm" type="video/webm">
-		    </video>	
-      </div>
-    </div>
-  </div>
- 
-
-
 	<div class="content">
 		<h1> WE MAKE YOUR DREAMS COME TRUE</h1>
 		<p> Rencontrez vos acteurs préférés durant une convention lors d'un week-end de rêve</p>
   </div>
+
+  <!-- Button trigger modal -->
+  <button type="button" class="btn button-pink" data-toggle="modal" data-target="#exampleModal">
+ inscription
+  </button>
+
+  <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <div class="form-group form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <a href="mailto:lauramai.mcl@gmail.com" class="btn button-pink"> Submit</a>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+            <button type="button" class="btn btn-light">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
 </div>
 
 
@@ -98,34 +159,56 @@
 </div>
 
 
+<div class="container2">
+  <div id="categorie2">
 
-<div id="categorie2">
+    <h2 class="title"> QU'EST-CE QU'UNE CONVENTION ?</h2>
 
-  <h2 class="title"> QU'EST-CE QU'UNE CONVENTION ?</h2>
+    <p class="definition">Une Convention est un évènement durant lequel vous aurez la possibilité d'entrer dans l'univers de vos films ou séries préférés en rencontrant les acteurs qui donnent vie aux personnages auxquels vous êtes attachés (ou pas). Les participants ont l'opportunité de parler avec les célébrités lors de panels de questions/réponses, de séances de dédicaces ou de meeting. Il est également possible d'être pris en photo avec un ou plusieurs des invités par un professionnel.</p>
 
-  <p class="definition">Une Convention est un évènement durant lequel vous aurez la possibilité d'entrer dans l'univers de vos films ou séries préférés en rencontrant les acteurs qui donnent vie aux personnages auxquels vous êtes attachés (ou pas). Les participants ont l'opportunité de parler avec les célébrités lors de panels de questions/réponses, de séances de dédicaces ou de meeting. Il est également possible d'être pris en photo avec un ou plusieurs des invités par un professionnel.</p>
+    <a href="FAQ.html" class="btn btn-light" > F.A.Q </a>
 
-  <button type="button" class="btn btn-light"> F.A.Q </button>
-
+  </div>
 </div>
 
 <div id="categorie3">
   
-  <h2> NEWLETTER </h2>
+  <h2> NEWSLETTER </h2>
   <p> Vous souhaitez être averti(e) lors de l'annonce d'un invité ou des promotions, inscrivez-vous à notre newsletter </p>
 
-  <form>
-  <div class="form-group">
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-  </div>
-  <a href="mailto:lauramai.mcl@gmail.com" class="btn button-pink"> S'inscrire </a>
-</form>
 
+<div class="formulaire">
+      <!-- Begin Mailchimp Signup Form -->
+      <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+      <style type="text/css">
+        #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+        /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+           We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+      </style>
+      <div id="mc_embed_signup">
+      <form action="https://github.us19.list-manage.com/subscribe/post?u=7b00510c1316c2a88163feda2&amp;id=d423fafced" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      
+      
+      <div class="mc-field-group">
+        <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+      </label>
+        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+      </div>
+      </div>  <div id="mce-responses" class="clear">
+          <div class="response" id="mce-error-response" style="display:none"></div>
+          <div class="response" id="mce-success-response" style="display:none"></div>
+        </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_7b00510c1316c2a88163feda2_d423fafced" tabindex="-1" value=""></div>
+          <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+          </div>
+      </form>
+      </div>
+      <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+      <!--End mc_embed_signup-->
+</div>
 </div>
 
-    <div id="footer">
-        
+    <div id="footer">      
         <ul class="list-inline">
         <li class="list-inline-item"><a href="#"><i class="fab fa-youtube"></i></a></li>
         <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-square"></i></a></li>
@@ -168,7 +251,9 @@
 
 
 
-
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 
 </body>
