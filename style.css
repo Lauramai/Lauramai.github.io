@@ -1,0 +1,169 @@
+header{
+	background-color: black;
+	height:100px;
+	top:0;
+	padding-top: 30px;
+}
+
+#banner {
+	background: white;
+	text-align: center;
+
+}
+
+.content {
+
+	text-align: center;
+	color: red;
+    width: 100%;
+    padding: 20px;s
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: center;
+	align-items: center;
+}
+
+p{
+	font-family: 'Raleway', sans-serif;
+}
+
+.content > h1 {
+}
+
+h2{ 
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: center;
+	font-size:50px;
+	margin-top: 50px;
+
+}
+
+.logo {
+	width: 300px;
+	text-align: center;
+}
+
+
+#categorie1{
+	margin-top: 50px;
+}
+
+.card {
+	color: #2e3d4d;
+	margin-bottom: 20px;
+
+}
+
+img {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+a {
+	margin-bottom: 20px;
+	margin-top:10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: center;
+	color: white;
+
+}
+
+h3 {
+	text-align: center;
+	font-size: 30px;
+	margin-top: 20px;
+}
+
+p {
+	text-align: center;
+	font-size: 14px;
+	margin-right: 20px;
+	margin-left: 20px;
+
+}
+
+.container {
+	margin-top: 10px;
+}
+
+
+.btn {
+	text-decoration: none;
+	font-family: 'Nanum Gothic', sans-serif;
+	color: black;
+	font-size: 20px;
+}
+
+.button-pink {
+  	background :linear-gradient(45deg,#de5480,#fcd49f);
+}
+
+
+#categorie2 {
+	background-image: url("images/beaconhills.png");
+  	background-size: cover;
+  	padding-bottom: 200px;
+}	
+
+.title {
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: center;
+	font-size:50px;
+	margin-top: 50px;
+	padding-top: 100px;
+
+}
+
+.definition{
+	font-family: 'Open Sans Condensed', sans-serif;
+	margin-top: 15px;
+	margin-right: 100px;
+	margin-left: 100px;
+	font-size: 20px;
+	text-align: justify;
+	color: white;
+}
+
+
+#footer{
+  text-align: center;
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+}
+
+#footer a {
+  color: lightgrey;
+  font-size: 30px;
+}
+#footer a:hover {
+  color: white;
+}
+
+
+#intro {
+	background-image: url("images/Hogwarts.png");
+	background-size:cover;
+	padding-bottom: 100px;
+	padding-top: 100px;
+}
+
+h5{
+	font-size:80px;
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: center;
+}
+
+h6{
+	font-size:40px;
+	color: grey;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: center;
+}
+

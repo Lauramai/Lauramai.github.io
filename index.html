@@ -1,11 +1,187 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> Warner Bros. Leavesden</title>
+	<meta charset="utf-8">
+	<title> DreamWeaver</title>
+	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+	 <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i" rel="stylesheet">
+	 <link href="https://fonts.googleapis.com/css?family=Raleway:300i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:800" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
 
-<h1> STUDIO TOUR </h1>
+
+  <header>
+
+    <div class="dropdown">
+        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Menu
+        </a>
+
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+        <a class="dropdown-item" href="#anchor1">Nos Conventions</a>
+        <a class="dropdown-item" href="#categorie2">F.A.Q</a>
+        <a class="dropdown-item" href="#categorie3">Newsletter</a>
+      </div>
+    </div>
+
+    <a class="my-btn" href="#anchor1"> Nos Conventions </a>
+    <a class="my-btn" href="#categorie2"> F.A.Q </a>
+    <a class="my-btn" href="#categorie3"> Newsletter </a>
+      
+  </header>
+
+<div id="banner">
+
+<img src="images/logo.png">
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="embed-responsive embed-responsive-16by9">
+		    <video autoplay muted loop id="Myvideo">
+          <source src="videos/banner.mp4" type="video/mp4">
+          <source src="videos/banner.ogg" type="video/ogg">
+          <source src="videos/banner.webm" type="video/webm">
+		    </video>	
+      </div>
+    </div>
+  </div>
+ 
+
+
+	<div class="content">
+		<h1> WE MAKE YOUR DREAMS COME TRUE</h1>
+		<p> Rencontrez vos acteurs préférés durant une convention lors d'un week-end de rêve</p>
+  </div>
+</div>
+
+
+
+
+
+<div id="anchor1">
+
+  <h2> NOS CONVENTIONS</h2>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-6 col-xl-3">
+        <div class="card">
+          <h3> HARRY POTTER </h3>
+          <p> Rencontrez les héros de saga la plus magique du 21e siècle</p>
+          <img src="images/harrypotter.jpeg">
+          <a href="harrypotter.html" class="btn button-pink"> Voir </a>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-xl-3">
+        <div class="card">
+          <h3>TEEN WOLF</h3>
+          <p> Rencontrez la meute la plus hétérogène de Beacon Hills</p>
+          <img src="images/teenwolf.jpg">
+          <a href="#" class="btn button-pink">Voir</a>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-xl-3">
+        <div class="card" >
+          <h3>HEARTLAND</h3>
+          <p>Recontrez la famille la plus à cheval sur ses valeurs</p>
+          <img src="images/heartland.jpg">
+          <a href="#" class="btn button-pink">Voir</a>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-xl-3">
+        <div class="card">
+          <h3>INSAISISSABLES</h3>
+          <p>Rencontrez les magiciens les plus talentueux </p>
+          <img src="images/insaisissables.jpg">
+          <a href="#" class="btn button-pink">Voir</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+<div id="categorie2">
+
+  <h2 class="title"> QU'EST-CE QU'UNE CONVENTION ?</h2>
+
+  <p class="definition">Une Convention est un évènement durant lequel vous aurez la possibilité d'entrer dans l'univers de vos films ou séries préférés en rencontrant les acteurs qui donnent vie aux personnages auxquels vous êtes attachés (ou pas). Les participants ont l'opportunité de parler avec les célébrités lors de panels de questions/réponses, de séances de dédicaces ou de meeting. Il est également possible d'être pris en photo avec un ou plusieurs des invités par un professionnel.</p>
+
+  <button type="button" class="btn btn-light"> F.A.Q </button>
+
+</div>
+
+<div id="categorie3">
+  
+  <h2> NEWLETTER </h2>
+  <p> Vous souhaitez être averti(e) lors de l'annonce d'un invité ou des promotions, inscrivez-vous à notre newsletter </p>
+
+  <form>
+  <div class="form-group">
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <a href="mailto:lauramai.mcl@gmail.com" class="btn button-pink"> S'inscrire </a>
+</form>
+
+</div>
+
+    <div id="footer">
+        
+        <ul class="list-inline">
+        <li class="list-inline-item"><a href="#"><i class="fab fa-youtube"></i></a></li>
+        <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+        <li class="list-inline-item"><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+        <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+        <p>DreamWeaver ©Lauramaï</p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 </body>
