@@ -34,8 +34,12 @@ p{
 
 #anchor1 {
 	margin-top: 200px;
+	margin-bottom: 200px;
 }
 
+.convention {
+	margin-bottom: 50px;
+}
 
 h1 {
 	font-size:80px;
@@ -92,6 +96,7 @@ h6{
 .card {
 	color: #2e3d4d;
 	margin-bottom: 20px;
+	box-shadow: 2px 2px 10px;
 
 }
 
