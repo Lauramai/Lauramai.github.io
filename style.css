@@ -36,6 +36,7 @@ p{
 	margin-top: 200px;
 }
 
+
 h1 {
 	font-size:80px;
 	color: white;
@@ -49,6 +50,33 @@ h2{
 	font-size:50px;
 	margin-top: 50px;
 
+}
+
+h3 {
+	text-align: center;
+	font-size: 30px;
+	margin-top: 20px;
+}
+
+h4 {
+	font-size:80px;
+	color: black;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: center;
+}
+
+h5{
+	font-size:80px;
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: center;
+}
+
+h6{
+	font-size:40px;
+	color: grey;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: center;
 }
 
 .logo {
@@ -86,11 +114,7 @@ a {
 
 }
 
-h3 {
-	text-align: center;
-	font-size: 30px;
-	margin-top: 20px;
-}
+
 
 p {
 	text-align: center;
@@ -115,6 +139,7 @@ p {
 
 .button-pink {
   	background :linear-gradient(45deg,#de5480,#fcd49f);
+  	text-align: center;
 }
 
 .button-light {
@@ -182,22 +207,34 @@ p {
 	padding-top: 100px;
 }
 
-h5{
-	font-size:80px;
-	color: white;
-	font-family: 'Open Sans Condensed', sans-serif;
-	text-align: center;
+#intro2 {
+	background-image: url("images/heartlandranch.jpg");
+	background-size:cover;
+	padding-bottom: 100px;
+	padding-top: 100px;
 }
 
-h6{
-	font-size:40px;
-	color: grey;
-	font-family: 'Open Sans Condensed', sans-serif;
-	text-align: center;
+#intro3 {
+	background-image: url("images/derekloft.jpg");
+	background-size:cover;
+	padding-bottom: 100px;
+	padding-top: 100px;
+}
+
+#intro4 {
+	background-image: url("images/carousel.jpg");
+	background-size:cover;
+	padding-bottom: 100px;
+	padding-top: 100px;
 }
 
 .formulaire {
 	text-align: center
 }
+
+.accordion {
+	margin-top: 60px;
+}
+
 
 
